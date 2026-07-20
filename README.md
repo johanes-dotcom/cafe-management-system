@@ -62,22 +62,6 @@
 
 ---
 
-## 📸 Screenshot
-
-### Dashboard Admin
-
-Tambahkan screenshot dashboard admin di folder `screenshots/`.
-
-<CodeBlock language="markdown" content="![Dashboard Admin](screenshots/dashboard-admin.png)"/>
-
-### Dashboard Kasir
-
-Tambahkan screenshot dashboard kasir di folder `screenshots/`.
-
-<CodeBlock language="markdown" content="![Dashboard Kasir](screenshots/dashboard-kasir.png)"/>
-
----
-
 # 🚀 Instalasi
 
 ## Clone Repository
