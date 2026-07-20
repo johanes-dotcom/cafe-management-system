@@ -122,29 +122,3 @@ Frontend berjalan di: **http://localhost:5173**
 * 🌐 GitHub: https://github.com/johanes-dotcom
 * 📧 Email: [johanesgee@gmail.com](mailto:johanesgee@gmail.com)
 
----
-<WritingBlock id="31184" variant="document" content="## 📌 API Endpoint Utama
-
-| Method | Endpoint | Deskripsi | Akses |
-|--------|----------|-----------|--------|
-| `POST` | `/api/login` | Login pengguna dan mendapatkan token | Publik |
-| `POST` | `/api/logout` | Logout pengguna dan menghapus token | Terautentikasi |
-| `POST` | `/api/transactions` | Membuat transaksi baru | Kasir, Admin |
-| `GET` | `/api/transactions` | Mendapatkan riwayat transaksi | Admin |
-| `GET` | `/api/transactions/{id}` | Mendapatkan detail transaksi | Kasir, Admin |
-| `GET` | `/api/menus` | Mendapatkan semua data menu | Terautentikasi |
-| `POST` | `/api/menus` | Menambahkan menu baru | Admin |
-"/>
-
-Dan untuk struktur repo:
-
-<WritingBlock id="77124" variant="standard" content="## 📁 Struktur Repository
-
-```text id="7ad50w"
-cafe-management-system/
-├── frontend/        # React + Vite
-├── backend/         # Laravel API
-└── README.md
-```
-"/>
-</div>
