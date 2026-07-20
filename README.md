@@ -120,3 +120,13 @@ Frontend berjalan di: **http://localhost:5173**
 | `GET`  | `/api/transactions/{id}` | Mendapatkan detail transaksi         | Kasir, Admin   |
 | `GET`  | `/api/menus`             | Mendapatkan semua data menu          | Terautentikasi |
 | `POST` | `/api/menus`             | Menambahkan menu baru                | Admin          |
+
+## 👨‍💻 Developer
+
+**Johanes Kelvin Ge'e**
+
+* 🎓 Teknik Informatika — Universitas Kristen Satya Wacana
+* 💼 Software Engineer & UI/UX Developer
+* 🌐 GitHub: [johanes-dotcom](https://github.com/johanes-dotcom)
+* 📧 Email: [johanesgee@gmail.com](mailto:johanesgee@gmail.com)
+
