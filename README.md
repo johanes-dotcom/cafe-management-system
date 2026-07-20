@@ -123,15 +123,28 @@ Frontend berjalan di: **http://localhost:5173**
 * 📧 Email: [johanesgee@gmail.com](mailto:johanesgee@gmail.com)
 
 ---
+<WritingBlock id="31184" variant="document" content="## 📌 API Endpoint Utama
 
-## 📄 License
+| Method | Endpoint | Deskripsi | Akses |
+|--------|----------|-----------|--------|
+| `POST` | `/api/login` | Login pengguna dan mendapatkan token | Publik |
+| `POST` | `/api/logout` | Logout pengguna dan menghapus token | Terautentikasi |
+| `POST` | `/api/transactions` | Membuat transaksi baru | Kasir, Admin |
+| `GET` | `/api/transactions` | Mendapatkan riwayat transaksi | Admin |
+| `GET` | `/api/transactions/{id}` | Mendapatkan detail transaksi | Kasir, Admin |
+| `GET` | `/api/menus` | Mendapatkan semua data menu | Terautentikasi |
+| `POST` | `/api/menus` | Menambahkan menu baru | Admin |
+"/>
 
-Project ini menggunakan **MIT License** dan dikembangkan untuk keperluan pembelajaran serta pengembangan sistem Point of Sale (POS).
+Dan untuk struktur repo:
 
----
+<WritingBlock id="77124" variant="standard" content="## 📁 Struktur Repository
 
-<div align="center">
-
-⭐ **Jika proyek ini bermanfaat, jangan lupa beri Star di GitHub!**
-
+```text id="7ad50w"
+cafe-management-system/
+├── frontend/        # React + Vite
+├── backend/         # Laravel API
+└── README.md
+```
+"/>
 </div>
