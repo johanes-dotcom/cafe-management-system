@@ -112,13 +112,3 @@ Frontend berjalan di: **http://localhost:5173**
 ## 📌 API Endpoint Utama
 
 <Table columnSizing="equal" rowDivider={{"size":1,"color":"default"}}><Table.Row header><Table.Cell>Method</Table.Cell><Table.Cell>Endpoint</Table.Cell><Table.Cell>Akses</Table.Cell></Table.Row><Table.Row><Table.Cell><Code value="POST"/></Table.Cell><Table.Cell><Code value="/api/login"/></Table.Cell><Table.Cell>Publik</Table.Cell></Table.Row><Table.Row><Table.Cell><Code value="POST"/></Table.Cell><Table.Cell><Code value="/api/logout"/></Table.Cell><Table.Cell>Terautentikasi</Table.Cell></Table.Row><Table.Row><Table.Cell><Code value="POST"/></Table.Cell><Table.Cell><Code value="/api/transactions"/></Table.Cell><Table.Cell>Kasir, Admin</Table.Cell></Table.Row><Table.Row><Table.Cell><Code value="GET"/></Table.Cell><Table.Cell><Code value="/api/transactions"/></Table.Cell><Table.Cell>Admin</Table.Cell></Table.Row><Table.Row><Table.Cell><Code value="GET"/></Table.Cell><Table.Cell><Code value="/api/menus"/></Table.Cell><Table.Cell>Terautentikasi</Table.Cell></Table.Row><Table.Row><Table.Cell><Code value="POST"/></Table.Cell><Table.Cell><Code value="/api/menus"/></Table.Cell><Table.Cell>Admin</Table.Cell></Table.Row></Table>
-
----
-
-## 👨‍💻 Developer
-
-**Johanes Kelvin Ge'e**
-
-* 🌐 GitHub: https://github.com/johanes-dotcom
-* 📧 Email: [johanesgee@gmail.com](mailto:johanesgee@gmail.com)
-
