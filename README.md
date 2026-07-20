@@ -111,4 +111,12 @@ Frontend berjalan di: **http://localhost:5173**
 
 ## 📌 API Endpoint Utama
 
-<Table columnSizing="equal" rowDivider={{"size":1,"color":"default"}}><Table.Row header><Table.Cell>Method</Table.Cell><Table.Cell>Endpoint</Table.Cell><Table.Cell>Akses</Table.Cell></Table.Row><Table.Row><Table.Cell><Code value="POST"/></Table.Cell><Table.Cell><Code value="/api/login"/></Table.Cell><Table.Cell>Publik</Table.Cell></Table.Row><Table.Row><Table.Cell><Code value="POST"/></Table.Cell><Table.Cell><Code value="/api/logout"/></Table.Cell><Table.Cell>Terautentikasi</Table.Cell></Table.Row><Table.Row><Table.Cell><Code value="POST"/></Table.Cell><Table.Cell><Code value="/api/transactions"/></Table.Cell><Table.Cell>Kasir, Admin</Table.Cell></Table.Row><Table.Row><Table.Cell><Code value="GET"/></Table.Cell><Table.Cell><Code value="/api/transactions"/></Table.Cell><Table.Cell>Admin</Table.Cell></Table.Row><Table.Row><Table.Cell><Code value="GET"/></Table.Cell><Table.Cell><Code value="/api/menus"/></Table.Cell><Table.Cell>Terautentikasi</Table.Cell></Table.Row><Table.Row><Table.Cell><Code value="POST"/></Table.Cell><Table.Cell><Code value="/api/menus"/></Table.Cell><Table.Cell>Admin</Table.Cell></Table.Row></Table>
+| Method | Endpoint                 | Deskripsi                            | Akses          |
+| ------ | ------------------------ | ------------------------------------ | -------------- |
+| `POST` | `/api/login`             | Login pengguna dan mendapatkan token | Publik         |
+| `POST` | `/api/logout`            | Logout pengguna dan menghapus token  | Terautentikasi |
+| `POST` | `/api/transactions`      | Membuat transaksi baru               | Kasir, Admin   |
+| `GET`  | `/api/transactions`      | Mendapatkan riwayat transaksi        | Admin          |
+| `GET`  | `/api/transactions/{id}` | Mendapatkan detail transaksi         | Kasir, Admin   |
+| `GET`  | `/api/menus`             | Mendapatkan semua data menu          | Terautentikasi |
+| `POST` | `/api/menus`             | Menambahkan menu baru                | Admin          |
